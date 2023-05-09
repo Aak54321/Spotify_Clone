@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body style="overflow-x: hidden;overflow-y: hidden;">
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#"><img src="img/spo_logo.png" alt=""></a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa fas fa-plus-square"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fas fa-heart"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="#">Legal</a>
+                </li>
+                <li>
+                    <a href="#">Policies</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="player-container">
+        <div class="cover" style="padding-top:0;">
+            <img src="img/back.jpg" alt="">
+        </div>
+        <div class="main-content">
+            <div class="topbar"
+                style="opacity: 0.5;z-index: 9;position:relative;bottom:1110px;background-color: black;right:4px;">
+                <div class="prev-next-buttons">
+                    <a href="index.html"><button type="button" class="fa fas fa-chevron-left" style="cursor:pointer;"></button></a>
+                    <!-- <button type="button" class="fa fas fa-chevron-right"></button> -->
+                </div>
+
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Premium</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                        <li>
+                            <a href="#">Download</a>
+                        </li>
+                        <li class="divider">|</li>
+                        <li>
+                            <a href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                    <button type="button"><a href="log_in.html">Log in</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="title" style="z-index:9;position:relative;bottom:1210px;padding-left:40px;margin-left:244px;height:340px;background: rgb(238,238,238);
+        background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(18,18,18,0.742734593837535) 72%);">
+            <h1 style="color:#f6f7f8;position:relative;top:62px;font-size:80px;">This Is BTS</h1>
+            <p style="margin-top:80px;color:#989898;font-weight: 20px;">This is the Proof of HISTORY. Check out BTS YET
+                TO COME LIVE AT BUSAN.Army is unbeatable💜</p>
+            <span style="position: relative;top:85px;left:710px;color:#f6f7f8">Song</span>
+            <span style="position: relative;top:85px;left:1100px;color:#f6f7f8">Album</span>
+            <span style="position: relative;top:85px;left:1403px;color:#f6f7f8">Added</span>
+        </div>
+        <div class="songs" style="background: rgb(238,238,238);
+        background: linear-gradient(247deg, rgb(136 136 136) 0%, rgba(18,18,18,0.742734593837535) 72%);
+        height: 661px;
+        position: relative;
+        z-index: 9;
+        bottom: 1211px;
+        right: 0px;
+        left: 244px;">
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p1" style="left:-183px;"></i>
+            <img src="img/cover1.jpg" alt="" style="width:43px;left:-257px;">
+            <span style="left:-158px;">Butter</span>
+            <span style="left:-60px;">BE</span>
+            <span style="
+    left: -7px;
+">3 days ago</span>
+            <audio src="audio/1.mp3" id="audio1"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p2"></i>
+            <img src="img/cover2.jpg" alt="" style="width:43px;">
+            <span style="left:-143px;">Dynamite</span>
+            <span style="left:-66px;">BE</span>
+            <span style="
+    left: -10px;
+">3 days ago</span>
+            <audio src="audio/2.mp3" id="audio2"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p3" style="position:relative;left:-149px;"></i>
+            <img src="img/cover3.jpg" alt="" style="width:43px;left:-189px;">
+            <span style="left:-49px;">Boy With Luv</span>
+            <span style="left:31px;">Map of the Soul:Persona</span>
+            <span style="
+    left: -41px;
+">3 days ago</span>
+            <audio src="audio/3.mp3" id="audio3"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p4" style="left:-155px;"></i>
+            <img src="img/cover4.jpg" alt="" style="width:43px;left:-204px;">
+            <span style="left:-68px;">IDOL</span>
+            <span style="left:61px;">Love Yourself結
+                ‘ANSWER’</span>
+            <span style="
+    left: -32px;
+">3 days ago</span>
+            <audio src="audio/4.mp3" id="audio4"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p5" style="left:-153px;"></i>
+            <img src="img/cover5.jpg" alt="" style="width:43px;left:-202px;">
+            <span style="left:-64px;">Fake Love</span>
+            <span style="left:32px;">Love Yourself轉
+                ‘TEAR’</span>
+            <span style="
+    left: -32px;
+">3 days ago</span>
+            <audio src="audio/5.mp3" id="audio5"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p6" style="left:-153px;"></i>
+            <img src="img/cover6.jpg" alt="" style="width:43px;left:-212px;">
+            <span style="left:-80px;">Blood Sweat &amp; Tears</span>
+            <span style="left:-64px;">WINGS</span>
+            <span style="
+    left: -24px;
+">3 days ago</span>
+            <audio src="audio/6.mp3" id="audio6"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p7" style="left:-131px;"></i>
+            <img src="img/cover7.jpg" alt="" style="width:43px;left:-163px;">
+            <span style="left:-6px;">Butterfly</span>
+            <span style="left:117px;">The Most Beautiful Moment in Life Pt.2</span>
+            <span style="
+    left: -48px;
+">3 days ago</span>
+            <audio src="audio/7.mp3" id="audio7"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p8" style="left:-162px;"></i>
+            <img src="img/cover8.jpg" alt="" style="width:43px;left:-230px;">
+            <span style="left:-106px;">Dope</span>
+            <span style="left:8px;">Young Forever</span>
+            <span style="
+    left: -12px;
+">3 days ago</span>
+            <audio src="audio/8.mp3" id="audio8"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p9" style="left:-158px;"></i>
+            <img src="img/cover9.jpg" alt="" style="width:43px;left:-227px;">
+            <span style="left:-104px;">Yet to Come</span>
+            <span style="left:-38px;">PROOF</span>
+            <span style="
+    left: -11px;
+">3 days ago</span>
+            <audio src="audio/9.mp3" id="audio9"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p10" style="left:-120px;"></i>
+            <img src="img/cover10.jpg" alt="" style="width:43px;left:-157px;bottom: 2px;">
+            <span style="left:1px;">We are Bulletproof : the Eternal</span>
+            <span style="left:-33px;">Map of the Soul:7</span>
+            <span style="
+    left: -44px;
+">3 days ago</span>
+            <audio src="audio/10.mp3" id="audio10"></audio>
+        </div>
+        <div class="songItem">
+            <i class="fa-solid fa-play" id="p11" style="left:-128px;"></i>
+            <img src="img/cover11.jpg" alt="" style="width:43px;left:-177px;">
+            <span style="left:-27px;">Permission to Dance</span>
+            <span style="left:9px;">Permission to Dance</span>
+            <span style="
+    left: -32px;
+">3 days ago</span>
+            <audio src="audio/11.mp3" id="audio11"></audio>
+        </div>
+        </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/23cecef777.js" crossorigin="anonymous">
+    </script>
+    <script src="play.js"></script>
+</body>
+
+</html>
